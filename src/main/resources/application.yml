@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: conhub-eureka-server
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: conhub-config-server
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    
