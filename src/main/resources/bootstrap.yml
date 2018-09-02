@@ -1,10 +1,6 @@
 spring:
   application:
     name: conhub-eureka-server   
-  cloud:
-    config:
-      uri:
-      - http://${CONFIG_SERVER_HOST:localhost}:8888 
 server:
   port: 8761
 eureka:
